@@ -1,16 +1,7 @@
-# Zheng Shi — academic website
-
-Personal academic website for Zheng Shi, Research Scientist at the Institute for Environmental Genomics, University of Oklahoma.
+# Zheng Shi — academic website deployment
 
 **Live site:** https://zshigrit.github.io/EcoDynamics/
 
-The site is written in [MyST Markdown](https://mystmd.org/) and published to GitHub Pages by [the deployment workflow](.github/workflows/deploy.yml) when changes are merged into `main`.
+This repository publishes the original personal website from [zshigrit/zshigrit.github.io](https://github.com/zshigrit/zshigrit.github.io). The published site uses that repository's `index.html`, other HTML pages, CSS, research images, and CV. The MyST files in this repository are no longer the source of the live website.
 
-## Edit the site
-
-- `myst.yml` sets the title and page navigation.
-- `index.md` is the homepage.
-- `research.md`, `publications.md`, `background.md`, and `contact.md` are the other pages.
-- `custom.css` contains small visual adjustments.
-
-To build locally, install MyST (`npm install -g mystmd`) and run `myst build --html`. The output is in `_build/html/`.
+Edit the pages and assets in the [original repository](https://github.com/zshigrit/zshigrit.github.io/tree/main). To refresh the live `/EcoDynamics/` site after editing it, run the [deploy workflow](.github/workflows/deploy.yml) manually from the Actions tab, or push a change to this repository's `main` branch.
