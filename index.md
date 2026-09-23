@@ -1,46 +1,23 @@
 ---
-title: Website Title
-subtitle: Subtitle of the book
+title: Zheng Shi
+subtitle: Research Scientist · Terrestrial Carbon Cycle · Ecosystem Modeling
 ---
 
-## Introduction
+I am a Research Scientist at the **Institute for Environmental Genomics, University of Oklahoma**. I study how ecosystems and soils respond to environmental change, bringing together field observations, data synthesis, and process-based models.
 
-Welcome to the official repository for _**Website Title**_. This repository contains all the code examples featured in the book.
+My work focuses on soil organic carbon, plant–soil–microbe interactions, and the evaluation of Earth system models. I am especially interested in using observations, including radiocarbon measurements, to identify where model predictions agree for the right reasons and where they do not.
 
----
+## Explore
 
-## Featured Projects
+- [Research](research.md) — soil carbon, global change experiments, and model evaluation.
+- [Publications](publications.md) — selected peer-reviewed papers with links to the articles.
+- [Background](background.md) — training and research appointments.
+- [Contact](contact.md) — professional links and ways to connect.
 
-::::{grid} 2 2 4 4
+## Current interests
 
-:::{card}
-:link: https://mystmd.org
-![mystmd](book/images/myst.webp)
-+++
-**MyST Markdown**
-:::
+**Carbon belowground.** How old is the carbon held in soils, how quickly does it turn over, and what happens as climate and ecosystems change?
 
-:::{card}
-:link: https://jupyterbook.org
-![jupyter-book](book/images/jupyter-book.webp)
-+++
-**Jupyter Book**
-:::
+**From plots to models.** How can experiments and observations at multiple scales improve the representation of carbon cycling in ecosystem and Earth system models?
 
-:::{card}
-:link: https://jupyter.org
-![jupyter](book/images/jupyter.webp)
-+++
-**Jupyter**
-:::
-
-:::{card}
-:link: https://python.org
-![python](book/images/python.webp)
-+++
-**Python**
-:::
-
-::::
-
----
+**Better model evaluation.** What can benchmarking and uncertainty analysis tell us about apparently similar predictions from different models?
